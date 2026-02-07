@@ -165,3 +165,52 @@ h1{
 .flex p {
     text-align: center;
 }
+.card2{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 400px;
+    margin-top: 50px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
+    margin: auto;
+    gap:20px ;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.f1{
+    border: 1px solid rgba(128, 128, 128, 0.227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    padding: 40px;
+    padding-top: 60px;
+}
+.grid5{
+     border: 1px solid rgba(128, 128, 128, 0.227);
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.card5{
+    margin: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    line-height: 2;
+    align-items: start;
+}
